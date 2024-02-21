@@ -1,0 +1,61 @@
+/*  */
+/* Strat Projects my habd */
+/* .first__project {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.h2-heading{ 
+  width: 1000px;
+}
+.projects__h3 {
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-size: 2rem;
+}
+.projects__paragraph {
+  line-height: 1.4;
+}
+.project_link img{
+  width: 1.5rem;
+  padding-left: 5px;
+}
+.projects__first-project {
+
+} */
+/* End Projects my habd*/
+
+/* Strat Projects */
+.projects__main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 7.4rem;
+  row-gap: 7.4rem;
+}
+.projects_img {
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+  min-width: 100%;
+}
+.projects-data {
+  align-self: center;
+}
+.projects__description {
+  line-height: 1.5;
+}
+.projects__link {
+  color: var(--color-darker-blue);
+  font-family: var(--font-family-poppins);
+  font-weight: var(--font-weight-medium);
+  margin-top: 2.3rem;
+}
+.projects__link::after {
+  content: "";
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-image: url("./images/external-icon.png");
+  background-size: contain;
+  margin-left: 0.6rem;
+}
+/* End Projects */
